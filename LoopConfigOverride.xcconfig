@@ -1,12 +1,18 @@
 #include? "../../LoopConfigOverride.xcconfig"
+
 // Override this if you don't want the default com.${DEVELOPMENT_TEAM}.loopkit that loop uses
 // MAIN_APP_BUNDLE_IDENTIFIER = com.myname.loop
+
 // Customize this to change the app name displayed
 //MAIN_APP_DISPLAY_NAME = Loop
+
 // Customize this to change the URL to open Loop to something other than the display name
 //URL_SCHEME_NAME = $(MAIN_APP_DISPLAY_NAME)
+
 // Features
 SWIFT_ACTIVE_COMPILATION_CONDITIONS = $(inherited) SIMULATORS_ENABLED //DEBUG_FEATURES_ENABLED
+
 // Put your team id here for signing
 //LOOP_DEVELOPMENT_TEAM = UY678SP37Q
-ADULT_CHILD_INSULIN_MODEL_SELECTION_ENABLED
+
+ADULT_CHILD_INSULIN_MODEL_SELECTION_ENABLED =
